@@ -1,0 +1,50 @@
+body{
+    background: radial-gradient(rgb(10, 10, 10), rgb(0, 0, 0));
+    /* background-color: rgb(2, 11, 0); */
+    background-position: center;
+    background-size: cover;
+}
+
+
+.blur-div{
+    backdrop-filter: blur(15px);
+}
+
+.avg-blur{
+    backdrop-filter: blur(15px);
+
+}
+
+.primary-blur{
+    backdrop-filter: blur(100px);
+}
+
+.home-cont{
+    background: url('../public/man-experiencing-virtual-reality-medium-shot\ 1.png');
+    background-position: center;
+    background-size: cover;
+    /* backdrop-filter: blur(60px); */
+    z-index: 2;
+}
+
+
+.section-two{
+    /* background: url('../public/bg-001.png'); */
+    /* background: radial-gradient(rgb(9, 28, 0), rgb(13, 18, 13)); */
+    background-position: center;
+    background-size: cover;
+}
+
+.section-three{
+    /* background: url('../public/bg-002.png'); */
+    background-position: center;
+    background-size: cover;
+}
+
+/* Animations */
+
+.text-ani{
+    animation: TextAnimation auto;
+    animation-timeline: view();
+}
+
