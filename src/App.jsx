@@ -93,8 +93,8 @@ function App() {
             ref={secTwo}
             className={
               secTwoinView
-                ? " text-xl sm:text-4xl font-bold text-center sm:mx-0  mx-6 duration-700"
-                : "opacity-0 text-xl sm:text-4xl font-bold text-center sm:mx-0  mx-6 duration-500"
+                ? "  text-2xl sm:text-4xl font-bold text-center sm:mx-0  mx-6 duration-700"
+                : "opacity-0 text-2xl sm:text-4xl font-bold text-center sm:mx-0  mx-6 duration-500"
             }
           >
             Your Trusted Key Management Experts, Providing Secure Access and
@@ -223,11 +223,11 @@ function App() {
                 : "  sm:w-1/2 sm:m-0 m-8 mb-0 z-40 text-slate-200"
             }
           >
-            <h2 className=" font-bold text-xl sm:text-3xl sm:text-justify text-center mb-2">
+            <h2 className=" font-bold text-2xl sm:text-3xl sm:text-justify text-center mb-2">
               Market Oppotunities
             </h2>
             {/* <br /> */}
-            <p className=" font-semibold z-40 sm:text-justify text-center">
+            <p className="text-sm font-semibold z-40 sm:text-justify text-center">
               Lorem, ipsum dolor sit amet consectetur adipisicing elit. Deleniti
               fuga magnam accusamus corporis ducimus, repellat hic itaque ab
               dolorum odio voluptate
@@ -279,11 +279,11 @@ function App() {
           <div className=" bg-green-900/40 w-[500px] h-96 absolute z-0 blur-[80px] top-96 left-96"></div>
 
           <div className=" z-30">
-            <h2 className=" text-xl sm:text-3xl font-bold mb-2">
+            <h2 className=" text-2xl sm:text-3xl font-bold mb-2">
               Key Features
             </h2>
             {/* <br /> */}
-            <p className=" px-4">
+            <p className="text-sm px-4">
               Lorem ipsum dolor sit amet consectetur adipisicing elit.
               Asperiores ipsum provident voluptas sed. Illum adipisci,
               voluptatem et aut quos enim velit sint quibusdam quaerat ipsa.
@@ -384,7 +384,7 @@ function App() {
 
         <div className=" grid justify-center  text-center z-40">
           <div className=" sm:w-[800px] w-80 p-4 mx-10 sm:mx-auto mb-6 sm:mb-10">
-            <h1 className=" sm:text-3xl text-xl mb-2 font-bold">
+            <h1 className=" sm:text-3xl text-2xl mb-2 font-bold">
               Documents: Whitepaper & Pitch Deck
             </h1>
             {/* <br /> */}
