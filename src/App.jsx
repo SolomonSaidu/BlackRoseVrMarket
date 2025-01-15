@@ -120,8 +120,8 @@ function App() {
             ref={secTwo}
             className={
               secTwoinView
-                ? " pt-6 grid sm:grid-cols-2 gap-4 mx-4  w-fit sm:mx-auto duration-100"
-                : "blur-md pt-6 grid grid-cols-2 w-fit mx-auto duration-700"
+                ? " pt-6 grid sm:grid-cols-2 gap-4 mx-4  w-fit sm:mx-auto duration-75 text-slate-200"
+                : "blur-md pt-6 grid sm:grid-cols-2 w-fit mx-auto text-slate-200"
             }
           >
             <div className=" sm:w-96   bg-white/5 border-[0.2px] primary-blur border-white/5 p-4 rounded-2xl mx- sm:rounded-md gap-5 sm:gap-0 flex">
@@ -134,7 +134,7 @@ function App() {
                 <h1 className=" font-bold text-sm sm:text-justify">
                   Individualisation
                 </h1>
-                <p className=" text-xs text-justify ">
+                <p className=" text-xs text-justify text-slate-300">
                   Lorem ipsum, dolor sit amet consectetur adipisicing elit.
                   Ullam eos maxime quo explicabo neque sed aperiam mollitia eum,
                   reiciendis sunt dignissimos ipsam iust!
@@ -148,11 +148,11 @@ function App() {
                 <img className=" w-28 sm:w-16" src={bitcoin} alt="" />
               </div>
               {/* Text */}
-              <div>
+              <div >
                 <h1 className=" font-bold text-sm sm:text-justify ">
                   Individualisation
                 </h1>
-                <p className=" text-xs text-justify">
+                <p className=" text-xs text-justify text-slate-300">
                   Lorem ipsum, dolor sit amet consectetur adipisicing elit.
                   Ullam eos maxime quo explicabo neque sed aperiam mollitia eum,
                   reiciendis sunt dignissimos ipsam iust!
@@ -170,7 +170,7 @@ function App() {
                 <h1 className=" font-bold text-sm sm:text-justify">
                   Individualisation
                 </h1>
-                <p className=" text-xs text-justify">
+                <p className=" text-xs text-justify text-slate-300">
                   Lorem ipsum, dolor sit amet consectetur adipisicing elit.
                   Ullam eos maxime quo explicabo neque sed aperiam mollitia eum,
                   reiciendis sunt dignissimos ipsam iust!
@@ -188,7 +188,7 @@ function App() {
                 <h1 className=" font-bold text-sm sm:text-justify">
                   Individualisation
                 </h1>
-                <p className=" text-xs text-justify">
+                <p className=" text-xs text-justify text-slate-300">
                   Lorem ipsum, dolor sit amet consectetur adipisicing elit.
                   Ullam eos maxime quo explicabo neque sed aperiam mollitia eum,
                   reiciendis sunt dignissimos ipsam iust!
