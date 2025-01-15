@@ -1,5 +1,5 @@
 import React from "react";
-import Header from "./component/header";
+import Header from "./component/Header";
 import darkShadow from "../public/Rectangle 69.png";
 import dottedShape from "../public/bg dotted shapes.png";
 import movie from "../public/movie-2-fill.svg";
